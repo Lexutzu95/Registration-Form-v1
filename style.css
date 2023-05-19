@@ -142,31 +142,6 @@ form .user-details .input-box {
   border-radius: 0.5rem;
 }
 
-form .gender-details .gender-title {
-  font-size: 1.3rem;
-  font-weight: bolder;
-}
-
-form .gender-details .category {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin: 10px 0;
-}
-
-.gender-details .category label {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.gender-details input[type="radio"] {
-  width: 1rem;
-  height: 1rem;
-  margin-right: 6px;
-  accent-color: var(--clr6);
-}
-
 form .submit-btn {
   height: 3rem;
   margin: 45px 0;
@@ -215,9 +190,6 @@ form .submit-btn input:active {
     width: 100%;
   }
 
-  form .gender-details .category {
-    width: 100%;
-  }
 
   .main-card form .user-details {
     max-height: 320px;
